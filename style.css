@@ -1,0 +1,14 @@
+header nav {
+  background-color: rgb(82, 80, 80);
+}
+header nav ul li {
+  display: inline-block;
+  margin: 0px 15px;
+}
+/*couleur de mes liens en gris*/
+a {
+  color: rgb(180, 179, 179);
+}
+header nav ul li a:hover {
+  color: yellow;
+}
