@@ -1,9 +1,10 @@
 header nav {
   background-color: rgb(82, 80, 80);
+  height: 1.2rem; 
 }
 header nav ul li {
   display: inline-block;
-  padding-inline: 10px;
+  padding-inline: .5rem;
   text-decoration: none;
 }
 /*couleur de mes liens en gris*/
@@ -34,15 +35,14 @@ header nav ul li a:hover {
  font-size: 15px;
  text-decoration : none;
  }
+
 /*article*/
-.container{
+.flex-center{
   display: flex;
-  justify-content: center;
-  width:320px;
-  height:250px;
-  background-color:rgb(180, 179, 179);
-  margin-inline: 10px;
+  justify-content: space-between;
+  background-color: brown;
 }
+
 
 /*form*/
 .title2{
@@ -55,10 +55,11 @@ form{
 .form2{  
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 input, textarea {
   margin: 5px;
-  border: 2px solid rgb(82, 80, 80);
+  border: 2px solid rgb(180, 179, 179);
 }
 textarea{
   height: 70px;
