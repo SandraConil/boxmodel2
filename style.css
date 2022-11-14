@@ -31,8 +31,24 @@ header nav ul li a:hover {
   text-decoration: none;
 }
 /*article*/
-article{
+#container{
+  height: 180px;/*hauteur*/
   background-color: rgb(180, 179, 179);
+  display: flex; /*cote à cote*/
+  flex-direction: row;
+  flex-wrap: wrap; /*pas de retour à la ligne*/
+  justify-content: space-around;
+  border: 3px solid black;
+}
+.nul{
+  flex-direction: column;
 }
 
 /*form*/
+.form-group{
+  text-align: center;
+  display: inline;
+  padding: 10px;
+
+}
+
