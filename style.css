@@ -2,6 +2,7 @@
 nav {
   background-color: rgb(82, 80, 80);
   height: 1.2rem; 
+  color: white;
 }
 header nav ul li {
   display: inline-block;
@@ -40,28 +41,33 @@ header nav ul li {
   justify-content: space-between;
 }
 article{
-  background-color: brown;
-  height: 250px;
-  
+  background-color: rgb(180, 179, 179);
+  height: 150px;
+  width: 25%;
+  padding: 80px;
+  margin-inline: 10px;
+}
 
+hr{
+  margin-top: 50px;
+  width: 1500px;
+  height: 2px;
 }
 /*form*/
 .title2{
   color: black;
 }
-form{
-  width: 60%;
-}
-
-.form2{  
+.form-input{  
   display: flex;
-  flex-direction: column;
-  margin: 40px;
+  flex-direction: column;  
+  align-items: center;
+  
 }
 input, textarea {
    border: 2px solid rgb(180, 179, 179);
    margin: 5px;
-   width: 400px;
+   width: 750px;
+ 
 }
 textarea{
   height: 70px;
