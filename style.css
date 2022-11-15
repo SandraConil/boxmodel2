@@ -1,25 +1,23 @@
-header nav {
+
+nav {
   background-color: rgb(82, 80, 80);
   height: 1.2rem; 
 }
 header nav ul li {
   display: inline-block;
   padding-inline: .5rem;
-  text-decoration: none;
 }
-/*couleur de mes liens en gris*/
-a {
-  color: rgb(180, 179, 179);
+.color{
+  background-color: rgb(180, 179, 179);
 }
-header nav ul li a:hover {
-  color:gray;
-}
+
 .othercolor{
   background-color: rgb(180, 179, 179);
 }
 .other{
   color:rgb(82, 80, 80);
 }
+/*block gris en dessous menu*/
 .gray{
   background-color: rgb(180, 179, 179);
   height: 200px;
@@ -40,10 +38,13 @@ header nav ul li a:hover {
 .flex-center{
   display: flex;
   justify-content: space-between;
-  background-color: brown;
 }
+article{
+  background-color: brown;
+  height: 250px;
+  
 
-
+}
 /*form*/
 .title2{
   color: black;
@@ -60,8 +61,10 @@ form{
 input, textarea {
    border: 2px solid rgb(180, 179, 179);
    margin: 5px;
+   width: 400px;
 }
 textarea{
   height: 70px;
 }
+
 
