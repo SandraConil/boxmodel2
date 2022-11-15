@@ -49,17 +49,17 @@ header nav ul li a:hover {
   color: black;
 }
 form{
-  width: 80%;
-  margin: auto;
+  width: 60%;
 }
+
 .form2{  
   display: flex;
   flex-direction: column;
-  text-align: center;
+  margin: 40px;
 }
 input, textarea {
-  margin: 5px;
-  border: 2px solid rgb(180, 179, 179);
+   border: 2px solid rgb(180, 179, 179);
+   margin: 5px;
 }
 textarea{
   height: 70px;
